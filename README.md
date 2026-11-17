@@ -33,6 +33,10 @@ A primeira ideia foi usar dados da Prefeitura de BH, mas a documentação mostro
 
 ![Segurança Pessoal na RMBH](reports/figures/04_seguranca_rmbh.png)
 
+**Renda mais alta não significa mais segurança.** Na RMBH, a correlação entre o PIB per capita e a nota de Segurança Pessoal é fraca e **negativa** (−0,30): os municípios mais ricos tendem a ter segurança um pouco pior, e não melhor. Dos 5 municípios com maior PIB per capita, 4 estão entre os 6 piores em segurança. A exceção é Nova Lima.
+
+![Riqueza x segurança na RMBH](reports/figures/05_seguranca_x_pib.png)
+
 ## Uma decisão importante: só a edição 2026
 
 O plano original era comparar a evolução de BH entre as edições 2024, 2025 e 2026. Mas o próprio IPS Brasil avisa que essas edições não são estritamente comparáveis, e os dados mostram por quê: o Enem passou de nota média para nota mediana, o indicador Trabalho Infantil saiu e entraram cinco novos, e a população de referência muda a cada edição.
@@ -51,7 +55,7 @@ Comparar as notas entre anos mostraria uma "evolução" que seria, em parte, só
 │   ├── 03_ranking_ips_rmbh.ipynb        # BH no ranking do IPS da RMBH
 │   ├── 04_componentes_e_inclusao.ipynb  # dimensões, componentes e inclusão social
 │   ├── 05_ips_x_pib.ipynb               # progresso social x PIB per capita
-│   └── 06_seguranca.ipynb               # segurança pessoal e conclusões
+│   └── 06_seguranca.ipynb               # segurança, renda x segurança e conclusões
 ├── src/ips_rmbh/             # funções e configurações reutilizadas pelos notebooks
 ├── docs/                     # metodologia, dicionário de dados, comparabilidade e diário de bordo
 ├── reports/figures/          # gráficos gerados pelos notebooks

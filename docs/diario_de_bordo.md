@@ -30,6 +30,6 @@ Comparar 2024 com 2026 mostraria uma evolução que seria, em parte, só uma mud
 
 ## Sprint 2 · Primeiras respostas
 
-Onde BH fica no ranking da Grande BH, e como se compara aos vizinhos nos componentes do índice, no PIB per capita e em segurança.
+Onde BH fica no ranking da Grande BH, como BH se compara aos vizinhos nos componentes do índice, no PIB per capita e em segurança, e se renda mais alta significa mais segurança.
 
 **Notebooks:** [`03_ranking_ips_rmbh`](../notebooks/03_ranking_ips_rmbh.ipynb) a [`06_seguranca`](../notebooks/06_seguranca.ipynb).
